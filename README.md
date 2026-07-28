@@ -51,7 +51,6 @@ No PhD required. No massive GPU cluster. Just a free Colab GPU and this repo.
 ├── 📁 notebooks/
 │   ├── 📓 setup.ipynb            ⭐ full step-by-step walkthrough
 │   ├── 📓 run_pipelines.ipynb    ⚡ same result, way less code
-│   └── 📓 dataset_preperation.ipynb  🚧 early draft (not maintained)
 │
 ├── 📁 outputs/final_adapter/     → your trained LoRA weights land here
 ├── 📁 fine_tunning_ploted_graph/ → 📈 training loss curve image
