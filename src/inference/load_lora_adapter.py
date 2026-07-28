@@ -1,6 +1,6 @@
 from peft import PeftModel
 
-def load_finetuned_adapter(model, adapter):
+def load_finetuned_model(model, adapter):
     model = PeftModel.from_pretrained(
         model,
         adapter
