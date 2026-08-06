@@ -1,3 +1,3 @@
-def save(tokeinzer, trainer):
-    tokeinzer.save("outputs/final_adapter")
-    trainer.save("outputs/final_adapter")
+def save(tokenizer, trainer):
+    tokenizer.save_pretrained("outputs/final_adapter")
+    trainer.save_model("outputs/final_adapter")

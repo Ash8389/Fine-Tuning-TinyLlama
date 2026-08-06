@@ -8,7 +8,7 @@ def training_argument():
 
         overwrite_output_dir=True,
 
-        num_train_epochs=1,
+        num_train_epochs=2,
 
         per_device_train_batch_size=1,
 
